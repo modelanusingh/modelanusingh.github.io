@@ -5,15 +5,19 @@
     this.get('#/', function(context) {
       context.app.swap('');
      
-        context.render('templates/home.template',{})
+        context.render('templates/home.html',{})
                .appendTo(context.$element());
+
+                 $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
      
     });
     
     this.get('#/about', function(context) {
         var str=location.href.toLowerCase();
         context.app.swap('');
-        context.render('templates/about.template', {})
+        context.render('templates/about.html', {})
                .appendTo(context.$element());
     });  
 
