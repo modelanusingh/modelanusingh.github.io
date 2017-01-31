@@ -115,6 +115,13 @@ footer p {
 {
     padding: 0px;
 }
+.socaillinks
+{
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    right: 23%;
+}
 @media screen and (min-width:768px) {
     .brand {
         border-top: 2px solid skyblue;
