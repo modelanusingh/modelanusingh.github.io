@@ -4,10 +4,10 @@
     this.use('Template');
     this.get('#/', function(context) {
       context.app.swap('');
-      $.each(this.items, function() {
+     
         context.render('templates/home.template',{})
                .appendTo(context.$element());
-      });
+     
     });
     
     this.get('#/about', function(context) {
