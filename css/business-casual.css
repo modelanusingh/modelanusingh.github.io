@@ -6,7 +6,7 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+    background: url('http://www.magic4walls.com/wp-content/uploads/2014/03/monotype-print-wall-colors-texture-blue-background-hd-wallpaper.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -135,7 +135,7 @@ footer p {
         font-size: 5em;
         
         line-height: normal;
-            color: #c7855c;
+            color: #da157b;
         background: rgba(255,255,255,0.9);
     }
     .brand span
