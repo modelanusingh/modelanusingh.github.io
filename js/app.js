@@ -43,6 +43,12 @@
       context.render('templates/video.html', {})
         .appendTo(context.$element());
     });
+    this.get('#/contact', function (context) {
+      var str = location.href.toLowerCase();
+      context.app.swap('');
+      context.render('templates/contact.html', {})
+        .appendTo(context.$element());
+    });
 
     this.before('.*', function () {
       var hash = document.location.hash;
@@ -53,7 +59,7 @@
   });
 
   $(function () {
-    app.run('#/about');
+    app.run('#/');
   });
 
 })(jQuery);
